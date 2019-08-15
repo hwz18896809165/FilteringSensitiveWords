@@ -1,5 +1,5 @@
 # FilteringSensitiveWords
-This is an interface for filtering sensitive words. It currently runs at http://129.211.4.177:3000/. You can call this interface by URL + ‘keywords = your sentence’. After calling, it will return the sensitive words contained and help you filter them out.Techniques used:python,tornado,DFA
+This is an interface for filtering sensitive words. It currently runs at http://129.211.4.177:3000/. You can call this interface by URL + ‘search?keywords = your sentence’. After calling, it will return the sensitive words contained and help you filter them out.Techniques used:python,tornado,DFA
 
 What's the biggest difference from direct comparison strings and regular substitution?
 It uses DFA algorithm for modeling and searching，greatly improve the search efficiency.
